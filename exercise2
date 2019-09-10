@@ -1,0 +1,27 @@
+package program3;
+
+import java.util.Scanner;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Wybierz opcje:1,2 lub 3");
+		int opcja = sc.nextInt(); 
+		switch (opcja)
+	{
+		case 1:
+		    System.out.println("ciastko");
+		    break;
+		case 2:
+			System.out.println("karmel");
+			break;
+		case 3:
+			System.out.println("czekolada");
+			break;
+		default:
+			System.out.println("Nie ma takiej opcji");
+			break;
+	}
+ }
+}
